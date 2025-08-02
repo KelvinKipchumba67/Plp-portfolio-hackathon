@@ -62,10 +62,10 @@ This project also reflects my journey as a developer. I’m currently learning:
 
 Feel free to reach out:
 
-- 📧 **Email**: [k57494429@gmail.com](mailto:k57494429@gmail.com)  
+- 📧 **Email**: [k57494429@gmail.com]  
 - 📍 **Location**: Nairobi, Kenya  
-- 💼 **LinkedIn**: [linkedin.com/in/kelvin](#)  
-- 💻 **GitHub**: [KelvinKipchumba67](https://github.com/KelvinKipchumba67)
+- 💼 **LinkedIn**: [https://www.linkedin.com/in/kelvin-kipchumba-a03980332/] 
+- 💻 **GitHub**: (https://github.com/KelvinKipchumba67)
 
 ---
 
