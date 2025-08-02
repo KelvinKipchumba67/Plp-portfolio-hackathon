@@ -66,6 +66,7 @@ Feel free to reach out:
 - 📍 **Location**: Nairobi, Kenya  
 - 💼 **LinkedIn**: [https://www.linkedin.com/in/kelvin-kipchumba-a03980332/] 
 - 💻 **GitHub**: (https://github.com/KelvinKipchumba67)
+visit the page with this link:https://wondrous-lamington-a13d7b.netlify.app/
 
 ---
 
@@ -75,4 +76,3 @@ Feel free to reach out:
 git clone https://github.com/KelvinKipchumba67/Plp-portfolio-hackathon.git
 cd KelvinKipchumba67/Plp-portfolio-hackathon
 open index.html
-visit the page with this link:https://wondrous-lamington-a13d7b.netlify.app/
