@@ -75,3 +75,4 @@ Feel free to reach out:
 git clone https://github.com/KelvinKipchumba67/Plp-portfolio-hackathon.git
 cd KelvinKipchumba67/Plp-portfolio-hackathon
 open index.html
+visit the page with this link:https://wondrous-lamington-a13d7b.netlify.app/
