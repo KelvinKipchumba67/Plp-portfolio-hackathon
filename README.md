@@ -1,7 +1,7 @@
 # Kelvin Kipchumba – Portfolio Website
 
 Welcome to my personal portfolio website. This site showcases who I am as a **Front-End Developer** and **Graphics Designer**. It includes sections about my background, skills, education, and some of the projects I've worked on.
-visit the page with this link:https://wondrous-lamington-a13d7b.netlify.app/
+visit the page with this link:https://www.kelvinkipchumba.dev/
 ##  Project Structure
 
 This is a static HTML/CSS/JS website with the following sections:
