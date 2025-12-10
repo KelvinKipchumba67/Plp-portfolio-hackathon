@@ -122,7 +122,7 @@ a:hover {
 .nav-links {
   display: flex;
   list-style: none;
-  gap: var(--spacing-lg);
+  gap: var(--spacing-md);
   align-items: center;
 }
 
@@ -475,6 +475,11 @@ a:hover {
   max-width: 1000px;
   margin: 0 auto;
   justify-items: center;
+}
+
+/* Reduce gap specifically for the "Other Skills" grid (last skills-grid inside #skills) */
+#skills .skills-grid:last-of-type {
+  gap: var(--spacing-sm);
 }
 
 .skill {
