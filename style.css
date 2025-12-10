@@ -549,12 +549,45 @@ a:hover {
   flex-direction: column;
   height: 100%;
   box-shadow: var(--shadow-sm);
+  position: relative;
 }
 
 .education-card:hover {
   box-shadow: var(--shadow-lg);
   transform: translateY(-12px);
   border-color: var(--primary-color);
+}
+
+.education-timeline {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+
+.timeline-dot {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 3px solid white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.timeline-dot.primary {
+  background: linear-gradient(135deg, #FF6B6B 0%, #FF8E72 100%);
+}
+
+.timeline-dot.secondary {
+  background: linear-gradient(135deg, #4ECDC4 0%, #44A08D 100%);
+}
+
+.timeline-dot.university {
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--accent-color) 100%);
 }
 
 .education-card img {
@@ -568,18 +601,41 @@ a:hover {
   transform: scale(1.08);
 }
 
-.education-card h3 {
-  padding: var(--spacing-md) var(--spacing-md) 0;
-  color: var(--primary-color);
-  font-size: 1.1rem;
+.education-content {
+  padding: var(--spacing-lg);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+  flex-grow: 1;
 }
 
-.education-card blockquote {
-  padding: var(--spacing-md);
+.education-card h3 {
+  color: var(--text-primary);
+  font-size: 1.25rem;
+  margin: 0;
+  font-weight: 700;
+}
+
+.education-school {
+  color: var(--primary-color);
+  font-weight: 600;
+  font-size: 0.95rem;
+  margin: 0;
+}
+
+.education-major {
   color: var(--text-secondary);
+  font-size: 0.9rem;
   font-style: italic;
+  margin: 0;
+}
+
+.education-description {
+  color: var(--text-secondary);
   font-size: 0.95rem;
   line-height: 1.7;
+  margin: 0;
+  flex-grow: 1;
 }
 
 /* ===== PROJECTS SECTION ===== */
