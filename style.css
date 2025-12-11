@@ -812,13 +812,14 @@ a:hover {
 #contact_me > h2 {
   text-align: center;
   margin-bottom: var(--spacing-xl);
+  color: var(--text-primary);
 }
 
 .contact-wrapper {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: var(--spacing-lg);
-  max-width: 1000px;
+  gap: var(--spacing-xl);
+  max-width: 1100px;
   margin: 0 auto;
 }
 
@@ -833,8 +834,10 @@ a:hover {
 
 .contact-form-section h3,
 .contact-info-section h3 {
-  margin-bottom: var(--spacing-md);
+  margin-bottom: var(--spacing-lg);
   color: var(--primary-color);
+  font-size: 1.15rem;
+  font-weight: 700;
 }
 
 .contact-form label {
@@ -891,24 +894,65 @@ a:hover {
   box-shadow: 0 15px 35px rgba(0, 102, 255, 0.3);
 }
 
-.contact-info-section p {
-  margin-bottom: var(--spacing-md);
-  color: var(--text-secondary);
+.contact-info-cards {
+  display: grid;
+  gap: var(--spacing-md);
 }
 
-.contact-info-section strong {
-  color: var(--text-primary);
-  font-weight: 600;
+.contact-info-card {
+  display: flex;
+  gap: var(--spacing-md);
+  padding: var(--spacing-md);
+  background: linear-gradient(135deg, rgba(0, 102, 255, 0.02) 0%, rgba(0, 212, 255, 0.02) 100%);
+  border-radius: var(--radius-md);
+  border-left: 3px solid var(--primary-color);
+  transition: var(--transition);
+}
+
+.contact-info-card:hover {
+  background: linear-gradient(135deg, rgba(0, 102, 255, 0.06) 0%, rgba(0, 212, 255, 0.06) 100%);
+  transform: translateX(6px);
+}
+
+.contact-icon {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  min-width: 40px;
+}
+
+.contact-info-content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xs);
+}
+
+.contact-label {
+  margin: 0;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.contact-info-section p {
+  margin: 0;
+  color: var(--text-secondary);
+  font-size: 0.95rem;
 }
 
 .contact-info-section a {
   color: var(--primary-color);
   font-weight: 600;
   transition: var(--transition);
+  text-decoration: none;
 }
 
 .contact-info-section a:hover {
   color: var(--primary-dark);
+  text-decoration: underline;
 }
 
 /* ===== FOOTER ===== */
