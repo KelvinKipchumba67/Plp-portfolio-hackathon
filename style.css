@@ -1,7 +1,5 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap');
-
-/* ===== ROOT VARIABLES ===== */
 :root {
   --primary-color: #0066ff;
   --primary-dark: #0052cc;
@@ -37,7 +35,6 @@
   --transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
-/* ===== RESET & BASE STYLES ===== */
 * {
   margin: 0;
   padding: 0;
@@ -55,8 +52,6 @@ body {
   line-height: 1.6;
   overflow-x: hidden;
 }
-
-/* ===== TYPOGRAPHY ===== */
 h1 {
   font-family: var(--font-heading);
   font-weight: 800;
