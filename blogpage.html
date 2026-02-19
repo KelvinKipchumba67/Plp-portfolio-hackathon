@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kelvin's Blog</title>
-    <link rel="stylesheet" href="../style.css"> 
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
 </head>
 
 <body style="background: var(--section-bg); color: var(--text-primary); font-family: var(--font-body);">
@@ -21,25 +22,77 @@
       <li><a href="../index.html" style="color: var(--primary-color); text-decoration: none; font-weight: bold;">Back to Portfolio</a></li>
     </ul>
 </nav>
+<!--Slider blog content-->
+<div class="swiper">
+  <div class="swiper-wrapper">
+    
+    <div class="swiper-slide">
+      <div class="slide-inner">
+        <div class="content-box">
+          <span class="meta">APRIL 8, 2023 • FEATURED, FOOD</span>
+          <h2 class="title">Then going through some small strange motions</h2>
+          <p class="excerpt">A moderate incline runs towards the foot of Maybury Hill...</p>
+        </div>
+        <div class="image-box">
+          <img src="img/design.png" alt="Espresso Machine">
+        </div>
+      </div>
+    </div>
 
+    <div class="swiper-slide">
+      <div class="slide-inner">
+        <div class="content-box">
+          <span class="meta">FEBRUARY 16, 2026 • FEATURED, DEVELOPMENT</span>
+          <h2 class="title">The Definitive Guide to APIs</h2>
+          <p class="excerpt">APIs are the digital glue of the internet—understand endpoints, methods, headers, bodies, and status codes.</p>
+        </div>
+        <div class="image-box">
+          <img src="img/api.webp" alt="API Architecture">
+        </div>
+      </div>
+    </div>
 
-<section class="home" id="home">
+    <div class="swiper-slide">
+      <div class="slide-inner">
+        <div class="content-box">
+          <span class="meta">FEBRUARY 16, 2026 • FEATURED, DESIGN</span>
+          <h2 class="title">Crafting a Visual Voice</h2>
+          <p class="excerpt">Brand identity is more than a logo—learn how typography, color, and consistency build trust.</p>
+        </div>
+        <div class="image-box">
+          <img src="img/branding.jpg" alt="Branding">
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="nav-wrapper">
+    <div class="swiper-button-prev" aria-label="Previous slide">←</div>
+    <div class="swiper-button-next" aria-label="Next slide">→</div>
+  </div>
+
+  <div class="swiper-pagination" aria-label="Slider pagination"></div>
+</div>
+
+<!-- <section class="home" id="home">
         <div class="home-text container">
             <h2 class="home-title">Trend Blogger</h2>
             <span class="home-subtitle">Your source of great content</span>
         </div>
-</section>
+</section> -->
 
 <!-- Articles section BEWARE this is my word processor, now you know -->
+ <!--articles closed for a sec do not worry-->
 
-<article style="max-width: 800px; margin: 40px auto; background: var(--card-bg); padding: var(--spacing-xl); border-radius: var(--radius-lg); box-shadow: var(--shadow-md);">
+<!-- <article style="max-width: 800px; margin: 40px auto; background: var(--card-bg); padding: var(--spacing-xl); border-radius: var(--radius-lg); box-shadow: var(--shadow-md);">
         
         <header style="margin-bottom: var(--spacing-lg);">
             <span style="color: var(--primary-color); font-weight: bold; text-transform: uppercase; font-size: 0.8rem;">Development</span>
             <h1 style="font-family: var(--font-heading); font-size: 2.5rem; margin-top: 10px;">The Definitive Guide to APIs</h1>
             <p style="color: var(--text-secondary);">Published on February 16, 2026 by Kelvin</p>
          </header>
-         <img src="../img/api.webp" alt="API Architecture" style="width: 100%; border-radius: var(--radius-md); margin-bottom: var(--spacing-lg);">
+         <img src="img/api.webp" alt="API Architecture" style="width: 100%; border-radius: var(--radius-md); margin-bottom: var(--spacing-lg);">
 
 <div class="content" style="line-height: 1.8; font-size: 1.1rem;">
             
@@ -134,8 +187,18 @@ Conclusion
 In a digital-first world, a strong brand identity is what separates a professional entity from a hobbyist project. By combining strategic design with technical execution, we create experiences that last
     </p>
 </div>
-</article>
+</article> -->
 
+
+<!--This is the blog card section enjoy-->
+<section class="blogs-section">
+    <div class="blog-card">
+        <img src="img/pic.jpg" class="blog-image" alt="">
+        <h1 class="blog-title">Design is a journey I fell in love with a first sight.</h1>
+        <p class="blog-overview">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt incidunt fugiat quos porro repellat harum. Adipisci tempora corporis rem cum.</p>
+        <a href="/" class="btn dark">read</a>
+    </div>
+</section>
 
 
 <footer class="site-footer">
@@ -151,5 +214,8 @@ In a digital-first world, a strong brand identity is what separates a profession
     <a href="#top" class="back-to-top">↑ Back to Top</a>
   </footer>
 
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
