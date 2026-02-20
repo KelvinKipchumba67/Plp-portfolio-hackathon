@@ -262,7 +262,8 @@
   user-select: none;
   background: var(--primary-color);
   color: white;
-  border: 0;
+  border: 6;
+  border-color: white;
   transition: var(--transition);
 }
 
